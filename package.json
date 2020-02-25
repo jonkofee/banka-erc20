@@ -1,0 +1,28 @@
+{
+  "name": "banka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "develop": "truffle develop",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test test/*.test.js",
+    "deploy": "truffle migrate --reset --compile-all --network live"
+  },
+  "keywords": [
+    "erc20",
+    "token",
+    "banka"
+  ],
+  "author": "jonkofee@icloud.com",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "truffle": "^5.1.14",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
